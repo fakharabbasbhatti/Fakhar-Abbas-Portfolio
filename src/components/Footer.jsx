@@ -1,5 +1,7 @@
 import React from "react";
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -7,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <div className="flex flex-col md:flex-row md:space-x-12 items-center mb-4">
           <div className="flex-1 mb-4 md:mb-0">
-            <h3 className="text-2xl font-bold mb-2">Bhatti</h3>
+            <h3 className="text-2xl font-bold mb-2">BHATTI</h3>
             <p className="text-gray-400">
             Frontend Developer based in the PAK, specializing in web and
               software development.
@@ -37,28 +39,28 @@ const Footer = () => {
           justify-between items-center"
         >
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Bhatti. All rights reserved.
+            &copy; {new Date().getFullYear()} BHATTI. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
             <a href="#" className="text-gray-400 hover:text-white">
               <FaFacebook />
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <FaTwitter />
+              <FaTiktok />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            {/* <a href="#" className="text-gray-400 hover:text-white">
               <FaLinkedin />
-            </a>
-            <a href="https://github.com/fakharabbasbhatti/Fakhar-Abbas-Portfolio" className="text-gray-400 hover:text-white">
+            </a> */}
+            <a href="https://github.com/fakharabbasbhatti/Fakhar-Abbas-Portfolio" className="text-gray-400 hover:text-white" target="_blank">
               <FaGithub />
             </a>
           </div>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-white">
-              Privacy
+              BHATTI
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              Terms of Service
+              RANA & SHAH
             </a>
           </div>
         </div>
