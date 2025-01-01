@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FaEnvelope,FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaPhone } from 'react-icons/fa';
 import { FaLocationDot } from "react-icons/fa6";
 
 import AOS from 'aos';
@@ -89,7 +89,7 @@ const Contact = () => {
             <div className="mb-4 mt-8 flex items-center justify-start md:justify-start">
               <FaEnvelope className="inline-block text-green-400 hover:text-yellow-400 mr-2" />
               <a
-                href="fakharabbasbhatti333@gmail.com"
+                href="mailto:fakharabbasbhatti333@gmail.com"
                 className="text-sm md:text-base hover:underline"
               >
                 fakharabbasbhatti333@gmail.com
@@ -156,10 +156,15 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        
         {/* Alert Section */}
         {alertVisible && (
           <div
-            className={`fixed bottom-4 right-4 text-white px-4 py-2 rounded shadow-lg flex items-center space-x-4 ${alertMessage === 'Please fill out all fields before submitting.' ? 'bg-red-500' : 'bg-green-500'}`}
+            className={`fixed top-4 left-1/2 transform -translate-x-1/2 text-white px-4 py-2 rounded shadow-lg flex items-center space-x-4 ${
+              alertMessage === 'Please fill out all fields before submitting.'
+                ? 'bg-red-500'
+                : 'bg-green-500'
+            }`}
           >
             <span>{alertMessage}</span>
             <button
