@@ -13,7 +13,7 @@ const Navbar = () => {
     <header className="bg-black text-white">
       <div className="container mx-auto flex justify-between items-center p-4 relative">
         {/* Logo */}
-        <a href="#" className="text-3xl font-semibold">
+        <a href="#" className="text-3xl font-semibold hover:text-[#ff2359]">
           BHATTI
         </a>
 

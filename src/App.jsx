@@ -7,22 +7,21 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
+
 function App() {
 
   return (
     <div>
-        <Navbar />
-        <Hero />
-        <About />
-        <Service />
-        <Projects />
-        <Contact />
-        <Footer />
+      <Navbar />
+      <Hero />
+      <About />
+      <Service />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   )
 }
 
-export default App
-
-
+export default App;
 
